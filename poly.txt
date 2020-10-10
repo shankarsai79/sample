@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class poly
+{
+poly(int a,int b)
+{
+System.out.println(a+b);
+}
+poly(int a,int b,int c)
+{
+System.out.println(a+b+c);
+}
+public static void main(String args[])
+{
+int a,b,c;
+Scanner s=new Scanner(System.in);
+a=s.nextInt();
+b=s.nextInt();
+c=s.nextInt();
+poly o=new poly(a,b);
+poly d=new poly(a,b,c);
+}
+}
